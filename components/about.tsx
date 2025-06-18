@@ -9,7 +9,7 @@ import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { FaGithubSquare } from "react-icons/fa";
 import Link from "next/link";
 import { useActiveSectionContext } from "@/context/active-section-context";
-import profileImg from "@/public/profile.png";
+import profileImg from "@/public/prof.jpeg";
 
 export default function About() {
   const { ref } = useSectionInView("About");
